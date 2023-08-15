@@ -1,6 +1,6 @@
 package QuickFind;
 
-class test {
+class Test {
     
     public static void main(String[] args) {
         QuickFind uf=new QuickFind(10);
@@ -19,6 +19,8 @@ class test {
         for(int i=0; i<uf.id.length; i++) {
             System.out.print(uf.id[i]);
         }
+
+        return;
     }
 
 }
